@@ -49,6 +49,38 @@ src/
 - **Utilities**: Generates orders and exports route details in GeoJSON format.
 - **App**: Entry point.
 
+***
+
+## Route Optimization Algorithm
+
+Our project uses a dynamic programming (DP) approach with bitmasking to find the fastest delivery route for multiple orders, respecting restaurant preparation times and required pickup-before-delivery constraints.
+
+### Key Concepts:
+
+- **Nodes Represent Locations:**
+    - The first n nodes correspond to restaurants (pickups).
+    - The next n nodes correspond to consumers (deliveries).
+
+- **DP State & Transitions:**
+    - The DP table `dp[mask][pos]` stores the minimum time to reach node `pos`, having visited the set of nodes indicated by `mask`.
+    - Transitions explore moving to unvisited nodes, ensuring that customer delivery happens only after their corresponding restaurant has been visited (pickup done).
+    - When moving to restaurants, the delivery executive may need to wait for meal preparation time to complete before picking up.
+
+- **Distance & Travel Time Calculation:**
+    - Uses the Haversine formula to calculate travel time between geo-locations at a constant speed (20km/h).
+
+- **Initialization:**
+    - The route starts from the delivery executive’s current location and must first visit a restaurant.
+
+- **Reconstruction:**
+    - After filling the DP table, the algorithm reconstructs the optimal visit order by backtracking parent states.
+    - It then builds detailed step-by-step route information with estimated arrival times (ETAs), specifying pickup or delivery at each step.
+
+### Benefits:
+
+- Handles multiple orders with pickup-deliver dependencies.
+- Minimizes total delivery time including travel and wait times.
+- Provides detailed routes with timing for effective delivery planning.
 
 ***
 ## Visualizing the Route GeoJSON
