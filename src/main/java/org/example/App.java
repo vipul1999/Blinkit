@@ -50,6 +50,6 @@ public class App {
 
     private static void exportRoute(RouteResult route, Path filePath) throws IOException {
         GeoJsonExporter.exportToGeoJson(route, filePath.toString());
-        System.out.println("GeoJSON exported to " + filePath.toAbsolutePath());
+        System.out.println("GeoJSON exported to absolute path" + filePath.toAbsolutePath());
     }
 }
