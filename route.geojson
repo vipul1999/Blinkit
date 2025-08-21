@@ -4,399 +4,396 @@
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.6225004859619, 12.930337409483034],
-        [77.6254333840246, 12.934675632208808],
-        [77.62838250649125, 12.935038051459872],
-        [77.62915586168712, 12.931824214756983],
-        [77.63301797189834, 12.934896736430172],
-        [77.62995662942289, 12.939081918514216],
-        [77.62682815141106, 12.939941878992913],
-        [77.62249124158052, 12.944413205194923],
-        [77.61612829393985, 12.943549624438829],
-        [77.61649719848292, 12.932032510213245],
-        [77.6141145672223, 12.927007431792811],
-        [77.60773528911054, 12.923476573234945],
-        [77.60698504182584, 12.939390570937606],
-        [77.60725160557952, 12.946542874417997],
-        [77.61604959743302, 12.952872456970116],
-        [77.62484297200939, 12.95403002857487],
-        [77.63925507692743, 12.951841575279454],
-        [77.63730217465833, 12.932173979331285],
-        [77.64334314523553, 12.932349164084021],
-        [77.64447536341063, 12.922048350713613]
+        [77.62052991659169, 12.927922426523144],
+        [77.62289938990563, 12.932805677331443],
+        [77.62556063754384, 12.932106434534795],
+        [77.62860509746875, 12.928067214188456],
+        [77.62473262565726, 12.926266069954544],
+        [77.61980164231862, 12.927807091718241],
+        [77.61740962180478, 12.929700028499814],
+        [77.6179365397197, 12.930938440238478],
+        [77.62342481600858, 12.938541085362205],
+        [77.62772741376558, 12.941612059102843],
+        [77.62320565448735, 12.945016367782824],
+        [77.62082478088821, 12.942711795026156],
+        [77.61454248543062, 12.949997650795215],
+        [77.61241479304594, 12.947796770107177],
+        [77.60886409859827, 12.94776240584185],
+        [77.60513142392523, 12.952751145847817],
+        [77.60468067272622, 12.937168655962031],
+        [77.61387414689467, 12.92485983592324],
+        [77.60966801367258, 12.920205554187568],
+        [77.62370794777908, 12.91719171206587]
       ]},
       "properties": { "name": "Delivery Route" }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.6225004859619, 12.930337409483034],
-        [77.6254333840246, 12.934675632208808]
+        [77.62052991659169, 12.927922426523144],
+        [77.62289938990563, 12.932805677331443]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.6254333840246, 12.934675632208808],
-        [77.62838250649125, 12.935038051459872]
+        [77.62289938990563, 12.932805677331443],
+        [77.62556063754384, 12.932106434534795]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.62838250649125, 12.935038051459872],
-        [77.62915586168712, 12.931824214756983]
+        [77.62556063754384, 12.932106434534795],
+        [77.62860509746875, 12.928067214188456]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.62915586168712, 12.931824214756983],
-        [77.63301797189834, 12.934896736430172]
+        [77.62860509746875, 12.928067214188456],
+        [77.62473262565726, 12.926266069954544]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.63301797189834, 12.934896736430172],
-        [77.62995662942289, 12.939081918514216]
+        [77.62473262565726, 12.926266069954544],
+        [77.61980164231862, 12.927807091718241]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.62995662942289, 12.939081918514216],
-        [77.62682815141106, 12.939941878992913]
+        [77.61980164231862, 12.927807091718241],
+        [77.61740962180478, 12.929700028499814]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.62682815141106, 12.939941878992913],
-        [77.62249124158052, 12.944413205194923]
+        [77.61740962180478, 12.929700028499814],
+        [77.6179365397197, 12.930938440238478]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.62249124158052, 12.944413205194923],
-        [77.61612829393985, 12.943549624438829]
+        [77.6179365397197, 12.930938440238478],
+        [77.62342481600858, 12.938541085362205]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.61612829393985, 12.943549624438829],
-        [77.61649719848292, 12.932032510213245]
+        [77.62342481600858, 12.938541085362205],
+        [77.62772741376558, 12.941612059102843]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.61649719848292, 12.932032510213245],
-        [77.6141145672223, 12.927007431792811]
+        [77.62772741376558, 12.941612059102843],
+        [77.62320565448735, 12.945016367782824]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.6141145672223, 12.927007431792811],
-        [77.60773528911054, 12.923476573234945]
+        [77.62320565448735, 12.945016367782824],
+        [77.62082478088821, 12.942711795026156]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.60773528911054, 12.923476573234945],
-        [77.60698504182584, 12.939390570937606]
+        [77.62082478088821, 12.942711795026156],
+        [77.61454248543062, 12.949997650795215]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.60698504182584, 12.939390570937606],
-        [77.60725160557952, 12.946542874417997]
+        [77.61454248543062, 12.949997650795215],
+        [77.61241479304594, 12.947796770107177]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.60725160557952, 12.946542874417997],
-        [77.61604959743302, 12.952872456970116]
+        [77.61241479304594, 12.947796770107177],
+        [77.60886409859827, 12.94776240584185]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.61604959743302, 12.952872456970116],
-        [77.62484297200939, 12.95403002857487]
+        [77.60886409859827, 12.94776240584185],
+        [77.60513142392523, 12.952751145847817]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.62484297200939, 12.95403002857487],
-        [77.63925507692743, 12.951841575279454]
+        [77.60513142392523, 12.952751145847817],
+        [77.60468067272622, 12.937168655962031]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.63925507692743, 12.951841575279454],
-        [77.63730217465833, 12.932173979331285]
+        [77.60468067272622, 12.937168655962031],
+        [77.61387414689467, 12.92485983592324]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.63730217465833, 12.932173979331285],
-        [77.64334314523553, 12.932349164084021]
+        [77.61387414689467, 12.92485983592324],
+        [77.60966801367258, 12.920205554187568]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
       "geometry": { "type": "LineString", "coordinates": [
-        [77.64334314523553, 12.932349164084021],
-        [77.64447536341063, 12.922048350713613]
+        [77.60966801367258, 12.920205554187568],
+        [77.62370794777908, 12.91719171206587]
       ]},
       "properties": { "arrow": true }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.6225004859619, 12.930337409483034] },
+      "geometry": { "type": "Point", "coordinates": [77.62052991659169, 12.927922426523144] },
       "properties": {
-        "action": "Pickup",
-        "target": "Restaurant R2",
-        "orderId": "O2",
-        "marker-color": "red",
-        "eta": 5.00
+        "marker-color": "yellow",
+        "type": "origin"
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.6254333840246, 12.934675632208808] },
-      "properties": {
-        "action": "Pickup",
-        "target": "Restaurant R9",
-        "orderId": "O9",
-        "marker-color": "red",
-        "eta": 6.73
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.62838250649125, 12.935038051459872] },
-      "properties": {
-        "action": "Pickup",
-        "target": "Restaurant R1",
-        "orderId": "O1",
-        "marker-color": "red",
-        "eta": 7.70
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.62915586168712, 12.931824214756983] },
-      "properties": {
-        "action": "Pickup",
-        "target": "Restaurant R10",
-        "orderId": "O10",
-        "marker-color": "red",
-        "eta": 8.80
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.63301797189834, 12.934896736430172] },
+      "geometry": { "type": "Point", "coordinates": [77.62289938990563, 12.932805677331443] },
       "properties": {
         "action": "Pickup",
         "target": "Restaurant R4",
         "orderId": "O4",
         "marker-color": "red",
-        "eta": 10.42
+        "eta": 6.80
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.62995662942289, 12.939081918514216] },
-      "properties": {
-        "action": "Pickup",
-        "target": "Restaurant R6",
-        "orderId": "O6",
-        "marker-color": "red",
-        "eta": 12.14
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.62682815141106, 12.939941878992913] },
-      "properties": {
-        "action": "Pickup",
-        "target": "Restaurant R7",
-        "orderId": "O7",
-        "marker-color": "red",
-        "eta": 13.19
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.62249124158052, 12.944413205194923] },
+      "geometry": { "type": "Point", "coordinates": [77.62556063754384, 12.932106434534795] },
       "properties": {
         "action": "Pickup",
         "target": "Restaurant R3",
         "orderId": "O3",
         "marker-color": "red",
-        "eta": 15.25
+        "eta": 8.00
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.61612829393985, 12.943549624438829] },
-      "properties": {
-        "action": "Pickup",
-        "target": "Restaurant R8",
-        "orderId": "O8",
-        "marker-color": "red",
-        "eta": 17.33
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.61649719848292, 12.932032510213245] },
+      "geometry": { "type": "Point", "coordinates": [77.62860509746875, 12.928067214188456] },
       "properties": {
         "action": "Pickup",
         "target": "Restaurant R5",
         "orderId": "O5",
         "marker-color": "red",
-        "eta": 21.18
+        "eta": 9.67
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.6141145672223, 12.927007431792811] },
+      "geometry": { "type": "Point", "coordinates": [77.62473262565726, 12.926266069954544] },
       "properties": {
-        "action": "Deliver",
-        "target": "Customer C2",
-        "orderId": "O2",
-        "marker-color": "green",
-        "eta": 23.02
+        "action": "Pickup",
+        "target": "Restaurant R8",
+        "orderId": "O8",
+        "marker-color": "red",
+        "eta": 11.07
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.60773528911054, 12.923476573234945] },
+      "geometry": { "type": "Point", "coordinates": [77.61980164231862, 12.927807091718241] },
+      "properties": {
+        "action": "Pickup",
+        "target": "Restaurant R1",
+        "orderId": "O1",
+        "marker-color": "red",
+        "eta": 12.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.61740962180478, 12.929700028499814] },
+      "properties": {
+        "action": "Pickup",
+        "target": "Restaurant R6",
+        "orderId": "O6",
+        "marker-color": "red",
+        "eta": 13.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.6179365397197, 12.930938440238478] },
+      "properties": {
+        "action": "Pickup",
+        "target": "Restaurant R10",
+        "orderId": "O10",
+        "marker-color": "red",
+        "eta": 14.20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.62342481600858, 12.938541085362205] },
       "properties": {
         "action": "Deliver",
         "target": "Customer C4",
         "orderId": "O4",
         "marker-color": "green",
-        "eta": 25.41
+        "eta": 17.30
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.60698504182584, 12.939390570937606] },
+      "geometry": { "type": "Point", "coordinates": [77.62772741376558, 12.941612059102843] },
       "properties": {
-        "action": "Deliver",
-        "target": "Customer C7",
+        "action": "Pickup",
+        "target": "Restaurant R9",
+        "orderId": "O9",
+        "marker-color": "red",
+        "eta": 19.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.62320565448735, 12.945016367782824] },
+      "properties": {
+        "action": "Pickup",
+        "target": "Restaurant R7",
         "orderId": "O7",
-        "marker-color": "green",
-        "eta": 30.72
+        "marker-color": "red",
+        "eta": 20.89
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.60725160557952, 12.946542874417997] },
-      "properties": {
-        "action": "Deliver",
-        "target": "Customer C1",
-        "orderId": "O1",
-        "marker-color": "green",
-        "eta": 33.11
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.61604959743302, 12.952872456970116] },
-      "properties": {
-        "action": "Deliver",
-        "target": "Customer C8",
-        "orderId": "O8",
-        "marker-color": "green",
-        "eta": 36.67
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.62484297200939, 12.95403002857487] },
-      "properties": {
-        "action": "Deliver",
-        "target": "Customer C3",
-        "orderId": "O3",
-        "marker-color": "green",
-        "eta": 39.55
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.63925507692743, 12.951841575279454] },
-      "properties": {
-        "action": "Deliver",
-        "target": "Customer C10",
-        "orderId": "O10",
-        "marker-color": "green",
-        "eta": 44.29
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.63730217465833, 12.932173979331285] },
+      "geometry": { "type": "Point", "coordinates": [77.62082478088821, 12.942711795026156] },
       "properties": {
         "action": "Deliver",
         "target": "Customer C6",
         "orderId": "O6",
         "marker-color": "green",
-        "eta": 50.88
+        "eta": 21.98
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.64334314523553, 12.932349164084021] },
+      "geometry": { "type": "Point", "coordinates": [77.61454248543062, 12.949997650795215] },
+      "properties": {
+        "action": "Deliver",
+        "target": "Customer C1",
+        "orderId": "O1",
+        "marker-color": "green",
+        "eta": 25.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.61241479304594, 12.947796770107177] },
+      "properties": {
+        "action": "Deliver",
+        "target": "Customer C10",
+        "orderId": "O10",
+        "marker-color": "green",
+        "eta": 26.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.60886409859827, 12.94776240584185] },
+      "properties": {
+        "action": "Deliver",
+        "target": "Customer C8",
+        "orderId": "O8",
+        "marker-color": "green",
+        "eta": 27.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.60513142392523, 12.952751145847817] },
+      "properties": {
+        "action": "Deliver",
+        "target": "Customer C7",
+        "orderId": "O7",
+        "marker-color": "green",
+        "eta": 29.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.60468067272622, 12.937168655962031] },
+      "properties": {
+        "action": "Deliver",
+        "target": "Customer C3",
+        "orderId": "O3",
+        "marker-color": "green",
+        "eta": 34.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.61387414689467, 12.92485983592324] },
       "properties": {
         "action": "Deliver",
         "target": "Customer C5",
         "orderId": "O5",
         "marker-color": "green",
-        "eta": 52.85
+        "eta": 39.66
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [77.64447536341063, 12.922048350713613] },
+      "geometry": { "type": "Point", "coordinates": [77.60966801367258, 12.920205554187568] },
       "properties": {
         "action": "Deliver",
         "target": "Customer C9",
         "orderId": "O9",
         "marker-color": "green",
-        "eta": 56.31
+        "eta": 41.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.62370794777908, 12.91719171206587] },
+      "properties": {
+        "action": "Deliver",
+        "target": "Customer C2",
+        "orderId": "O2",
+        "marker-color": "green",
+        "eta": 46.40
       }
     }
   ]

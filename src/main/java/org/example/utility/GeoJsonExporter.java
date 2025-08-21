@@ -16,14 +16,12 @@ public class GeoJsonExporter {
         sb.append("    {\n")
                 .append("      \"type\": \"Feature\",\n")
                 .append("      \"geometry\": { \"type\": \"LineString\", \"coordinates\": [\n");
-
         for (int i = 0; i < result.sequence.size(); i++) {
             RouteStep step = result.sequence.get(i);
             sb.append("        [").append(step.getLng()).append(", ").append(step.getLat()).append("]");
             if (i < result.sequence.size() - 1) sb.append(",");
             sb.append("\n");
         }
-
         sb.append("      ]},\n")
                 .append("      \"properties\": { \"name\": \"Delivery Route\" }\n")
                 .append("    }");
@@ -43,12 +41,29 @@ public class GeoJsonExporter {
                     .append("    }");
         }
 
-        // Point features (markers)
+        // Point of origin (first location in the sequence, yellow marker)
+        if (!result.sequence.isEmpty()) {
+            RouteStep origin = result.sequence.get(0);
+            sb.append(",\n    {\n")
+                    .append("      \"type\": \"Feature\",\n")
+                    .append("      \"geometry\": { \"type\": \"Point\", \"coordinates\": [")
+                    .append(origin.getLng()).append(", ").append(origin.getLat()).append("] },\n")
+                    .append("      \"properties\": {\n")
+                    .append("        \"marker-color\": \"yellow\",\n")
+                    .append("        \"type\": \"origin\"\n")
+                    .append("      }\n")
+                    .append("    }");
+        }
+
+        // Other point features (markers for pickups and deliveries)
         for (int i = 0; i < result.sequence.size(); i++) {
             RouteStep step = result.sequence.get(i);
 
+            // Skip the origin marker (first point already marked)
+            if (i == 0) continue;
+
             // Decide marker color
-            String markerColor = "gray"; // default fallback
+            String markerColor = "gray";
             if ("Pickup".equalsIgnoreCase(step.getAction())) {
                 markerColor = "red";
             } else if ("Deliver".equalsIgnoreCase(step.getAction())) {
@@ -75,5 +90,4 @@ public class GeoJsonExporter {
             w.write(sb.toString());
         }
     }
-
 }
