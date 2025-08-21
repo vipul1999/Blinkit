@@ -36,7 +36,7 @@ public class App {
 
     private static List<Order> generateOrders(Location start, int count) {
         List<Order> orders = OrderGenerator.generateOrders(count, start);
-        System.out.println("Generated Orders:");
+        System.out.println("Generated Orders are:");
         orders.forEach(System.out::println);
         return orders;
     }

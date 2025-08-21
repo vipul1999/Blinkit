@@ -49,8 +49,24 @@ src/
 - **Utilities**: Generates orders and exports route details in GeoJSON format.
 - **App**: Entry point.
 
-***
 
+***
+## Visualizing the Route GeoJSON
+
+After running the project, a `.geojson` file is generated representing the delivery route with origin, pickups, deliveries, and direction arrows.
+
+**To visualize the route:**
+- Visit [https://geojson.io/#map=13.12/12.93604/77.6209](https://geojson.io/#map=13.12/12.93604/77.6209)
+- Drag and drop your generated `.geojson` file onto the page.
+- The map will show:
+   - Yellow marker for the origin
+   - Red markers for pickups
+   - Green markers for deliveries
+   - Route lines and arrows indicating direction
+
+This provides a quick and interactive way to verify your delivery routes without complex setup, as shown below:
+
+![](route.jpg)
 ## Usage
 
 1. **Setup Dependencies**
